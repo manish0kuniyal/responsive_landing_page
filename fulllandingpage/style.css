@@ -1,0 +1,156 @@
+body
+{
+ margin:0 ;padding:0;font-family: sans-serif;
+    box-sizing: border-box;
+}
+h2,h1,h3
+{ font-weight: bold3;
+    color: #394F8A;text-align: center;
+}
+p{
+    color:#232e4b;font-weight: 400;
+}
+.navbar
+{
+    color: #bba44f;
+    display: flex;flex-wrap: wrap;
+}
+.logo
+{
+    display: flex;
+    flex: 1;flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    padding: 1rem;font-weight: 700;border-radius: 5px;
+    background-color:#394F8A;color: whitesmoke;
+    margin-bottom: 3rem;
+}
+.nav-list
+{
+    flex: 1;display: flex;
+    justify-content:space-around;
+   
+}
+.logo-img
+{ 
+    
+    width: 30px;  height: 31px;
+    padding: 1rem .5rem;
+}
+.nav-items
+{  margin: auto;
+    list-style:none;
+   
+}
+.discription
+{ display: flex;padding :1%;
+  flex-wrap: wrap;gap:1rem;
+  
+}
+.disc-right
+{ flex-grow: 1;padding :1%;
+    text-align: center;
+    font-size:large;margin:auto;
+    
+}
+.disc-left
+{ display: flex;flex-grow: 1;
+    
+}
+.home-img
+{
+  margin: auto;
+}
+
+
+.tech
+{  
+    background-color: rgb(255, 247, 238);
+    display: flex;align-items: center;
+    flex-wrap: wrap;  flex-grow: 1;
+    padding: 1%;justify-content: center;
+}
+.tech-left
+{ 
+flex: 1;
+    
+}
+.tech-right
+{  flex: 1;text-align: center;
+   padding: 1%;font-size: large;
+}
+
+.tech-img
+{   
+    margin: auto;
+}
+.cards
+{  padding: 2rem;
+   
+    display: flex;gap: 1rem;
+    flex-wrap: wrp;flex-grow: 1;
+}
+.card
+{   height:60vh;text-align: center;
+    display: flex;flex-direction: column;
+    justify-content: center;align-items: center;
+    border: 3px solid rgb(255, 255, 255);
+    flex-grow: 1;
+    font-size: larger;
+}
+.card:hover{
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+}
+.av-img
+{
+    width: 250px;
+}
+.footer
+{ height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icon{
+   
+width: 30px;
+height: 30px;margin: auto;
+}
+.iconsW
+{
+    width: 40px;
+height: 40px;
+}
+.heading-steps
+{
+    text-align: center;
+    font-size: larger;margin-bottom: 3rem;
+}
+
+.steps
+{ text-align: center;display: flex;
+    justify-content: space-evenly;
+    font-size: larger;margin-bottom: 3rem;
+
+}
+.block1
+{
+}
+@media (max-width:1200px)
+{
+    .discription
+    {
+        flex-direction: column-reverse;
+    }
+    .tech
+    {
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    }
+   
+}
